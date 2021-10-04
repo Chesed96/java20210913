@@ -20,7 +20,7 @@ public class Ex01_NumberGame {
 		Scanner sc = new Scanner(System.in);
 		int userNum = 0;
 		System.out.println("난이도를 입력하세요.1~아무숫자");
-		userNum = Integer.parseInt(sc.nextLine());
+		userNum = Integer.parseInt(sc.nextLine( ));
 		
 		System.out.println(userNum);// 사용자가 숫자 입력을 완료함(난이도)
 		int[] arr = new int[userNum];// 사용자가 입력한 값을이용해서 배열을만듬.
